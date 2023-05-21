@@ -1,0 +1,125 @@
+Dataset 1
+
+Part 1 
+Finding best k cluster number...
+kl.elbow:  10
+np.argmax(silhouette_coefficients):  5
+
+Analyzing k-mean clustering of online_shoppers_intention.csv with k = 5
+NMI score: 0.520347
+For n_clusters = 5 The average silhouette_score is : 0.33955927712689943
+
+Analyzing ME clustering of online_shoppers_intention.csv with k = 5
+NMI score: 0.496461
+For n_clusters = 5 The average silhouette_score is : 0.24222017439838642
+
+Part 3
+Finding best k cluster number...
+kl.elbow:  4
+np.argmax(silhouette_coefficients):  8
+
+PCA Transform on dataset online_shoppers_intention.csv...
+Analyzing k-mean clustering of online_shoppers_intention.csv with k = 8
+NMI score: 0.355672
+For n_clusters = 8 The average silhouette_score is : 0.3669683989372043
+
+PCA Transform on dataset online_shoppers_intention.csv...
+Analyzing ME clustering of online_shoppers_intention.csv with k = 8
+NMI score: 0.447470
+For n_clusters = 8 The average silhouette_score is : 0.3775033307522874
+
+ICA Transform on dataset online_shoppers_intention.csv...
+Finding best k cluster number...
+kl.elbow:  13
+np.argmax(silhouette_coefficients):  18
+
+
+ICA Transform on dataset online_shoppers_intention.csv...
+Analyzing k-mean clustering of online_shoppers_intention.csv with k = 18
+NMI score: 0.271701
+For n_clusters = 18 The average silhouette_score is : 0.2038614459048099
+
+Analyzing ME clustering of online_shoppers_intention.csv with k = 18
+NMI score: 0.248453
+For n_clusters = 18 The average silhouette_score is : 0.16728236144809278
+
+
+RP Transform on dataset online_shoppers_intention.csv...
+Finding best k cluster number...
+kl.elbow:  None
+np.argmax(silhouette_coefficients):  3
+
+RP Transform on dataset online_shoppers_intention.csv...
+Analyzing k-mean clustering of online_shoppers_intention.csv with k = 3
+NMI score: 0.541192
+For n_clusters = 3 The average silhouette_score is : 0.2873927648841359
+Analyzing ME clustering of online_shoppers_intention.csv with k = 3
+NMI score: 0.684858
+For n_clusters = 3 The average silhouette_score is : 0.29088186794533494
+
+
+SVD Transform on dataset online_shoppers_intention.csv...
+Finding best k cluster number...
+kl.elbow:  5
+np.argmax(silhouette_coefficients):  3
+
+
+
+
+
+
+
+
+Dataset 2 
+
+Part 1 
+Finding best k cluster number...
+kl.elbow:  29
+np.argmax(silhouette_coefficients):  75
+
+Analyzing k-mean clustering of census_income.csv with k = 75
+NMI score: 0.035295
+For n_clusters = 75 The average silhouette_score is : 0.26591538215145477
+
+Analyzing ME clustering of census_income.csv with k = 75
+NMI score: 0.031545
+For n_clusters = 75 The average silhouette_score is : 0.298619738244545
+
+Part 3
+
+PCA Transform on dataset census_income.csv...
+Finding best k cluster number...
+kl.elbow:  7
+np.argmax(silhouette_coefficients):  19
+
+
+PCA Transform on dataset census_income.csv...
+Analyzing k-mean clustering of census_income.csv with k = 19
+NMI score: 0.018668
+For n_clusters = 19 The average silhouette_score is : 0.2236585719882115
+
+ICA Transform on dataset census_income.csv...
+Finding best k cluster number...
+kl.elbow:  24
+np.argmax(silhouette_coefficients):  3
+
+ICA Transform on dataset census_income.csv...
+Analyzing k-mean clustering of census_income.csv with k = 3
+NMI score: 0.002290
+For n_clusters = 3 The average silhouette_score is : 0.11924173352718219
+
+Analyzing ME clustering of census_income.csv with k = 3
+NMI score: 0.001730
+For n_clusters = 3 The average silhouette_score is : 0.053969109170803414
+
+
+
+RP Transform on dataset census_income.csv...
+Finding best k cluster number...
+kl.elbow:  11
+np.argmax(silhouette_coefficients):  8
+
+SVD Transform on dataset census_income.csv...
+Finding best k cluster number...
+kl.elbow:  8
+np.argmax(silhouette_coefficients):  9
